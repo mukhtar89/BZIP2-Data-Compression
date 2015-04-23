@@ -1,0 +1,34 @@
+﻿Build started 4/19/2015 11:44:46 PM.
+     1>Project "F:\Academics\UCIrvineGD\Qtr3\Ubi_Embed\BZIP2\BZIP2\BZIP2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt dlltest.c
+         dlltest.c
+     1>f:\academics\ucirvinegd\qtr3\ubi_embed\bzip2\bzip2\dlltest.c(31): warning C4013: '_getch' undefined; assuming extern returning int
+     1>f:\academics\ucirvinegd\qtr3\ubi_embed\bzip2\bzip2\dlltest.c(38): warning C4113: 'FARPROC' differs in parameter lists from 'const char *(__stdcall *)(void)'
+     1>f:\academics\ucirvinegd\qtr3\ubi_embed\bzip2\bzip2\dlltest.c(38): warning C4047: '=' : 'const char *(__stdcall *)(void)' differs in levels of indirection from 'FARPROC'
+     1>f:\academics\ucirvinegd\qtr3\ubi_embed\bzip2\bzip2\dlltest.c(39): warning C4113: 'FARPROC' differs in parameter lists from 'BZFILE *(__stdcall *)(const char *,const char *)'
+     1>f:\academics\ucirvinegd\qtr3\ubi_embed\bzip2\bzip2\dlltest.c(39): warning C4047: '=' : 'BZFILE *(__stdcall *)(const char *,const char *)' differs in levels of indirection from 'FARPROC'
+     1>f:\academics\ucirvinegd\qtr3\ubi_embed\bzip2\bzip2\dlltest.c(40): warning C4113: 'FARPROC' differs in parameter lists from 'BZFILE *(__stdcall *)(int,const char *)'
+     1>f:\academics\ucirvinegd\qtr3\ubi_embed\bzip2\bzip2\dlltest.c(40): warning C4047: '=' : 'BZFILE *(__stdcall *)(int,const char *)' differs in levels of indirection from 'FARPROC'
+     1>f:\academics\ucirvinegd\qtr3\ubi_embed\bzip2\bzip2\dlltest.c(41): warning C4113: 'FARPROC' differs in parameter lists from 'int (__stdcall *)(BZFILE *,void *,int)'
+     1>f:\academics\ucirvinegd\qtr3\ubi_embed\bzip2\bzip2\dlltest.c(42): warning C4113: 'FARPROC' differs in parameter lists from 'int (__stdcall *)(BZFILE *,void *,int)'
+     1>f:\academics\ucirvinegd\qtr3\ubi_embed\bzip2\bzip2\dlltest.c(43): warning C4113: 'FARPROC' differs in parameter lists from 'int (__stdcall *)(BZFILE *)'
+     1>f:\academics\ucirvinegd\qtr3\ubi_embed\bzip2\bzip2\dlltest.c(44): warning C4113: 'FARPROC' differs in parameter lists from 'void (__stdcall *)(BZFILE *)'
+     1>f:\academics\ucirvinegd\qtr3\ubi_embed\bzip2\bzip2\dlltest.c(45): warning C4113: 'FARPROC' differs in parameter lists from 'const char *(__stdcall *)(BZFILE *,int *)'
+     1>f:\academics\ucirvinegd\qtr3\ubi_embed\bzip2\bzip2\dlltest.c(45): warning C4047: '=' : 'const char *(__stdcall *)(BZFILE *,int *)' differs in levels of indirection from 'FARPROC'
+     1>f:\academics\ucirvinegd\qtr3\ubi_embed\bzip2\bzip2\dlltest.c(64): warning C4715: 'BZ2DLLFreeLibrary' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Academics\UCIrvineGD\Qtr3\Ubi_Embed\BZIP2\Debug\BZIP2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Academics\UCIrvineGD\Qtr3\Ubi_Embed\BZIP2\Debug\BZIP2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Academics\UCIrvineGD\Qtr3\Ubi_Embed\BZIP2\Debug\BZIP2.lib" /MACHINE:X86 Debug\blocksort.obj
+         Debug\bzlib.obj
+         Debug\compress.obj
+         Debug\crctable.obj
+         Debug\decompress.obj
+         Debug\dlltest.obj
+         Debug\huffman.obj
+         Debug\randtable.obj
+         BZIP2.vcxproj -> F:\Academics\UCIrvineGD\Qtr3\Ubi_Embed\BZIP2\Debug\BZIP2.exe
+     1>Done Building Project "F:\Academics\UCIrvineGD\Qtr3\Ubi_Embed\BZIP2\BZIP2\BZIP2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.34
